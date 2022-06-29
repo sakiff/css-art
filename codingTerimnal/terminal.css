@@ -1,0 +1,130 @@
+body {
+    margin: 0px 0px;
+    padding: 0 px 0px;
+    border: none;
+    background:linear-gradient(190deg,#FF416C,#FF4B2B);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+  }
+.window{
+ background-color: #292929;
+ width: 600px;
+ height: 400px;
+ border-radius: 5px;
+ padding: 10px;
+ z-index: 1;
+
+}
+
+
+/* window buttons */
+.buttons{
+    display: flex;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+  
+}
+
+.btn1 {
+    background-color: #FF6259;
+}
+.btn2 {
+    background-color: #FFC13D;
+}
+.btn3 {
+    background-color: #17C94B;
+}
+
+/* source code */
+
+.code-line-1, .code-line-2, .code-line-3, .code-line-4 {
+    background-color: #292929;
+    z-index: 2;
+
+}
+
+.codeBox1, .codeBox2 {
+    display: inline-flex;
+    height: 10px; 
+    width: 50px;
+    margin-top: 20px;
+    background-color: rgb(223, 64, 98);
+    border-radius: 15px;
+
+}
+
+.code-line-3, .code-line-4, .codeline-5{
+    margin-left: 20px;
+}
+.codeBox3, .codeBox4, .codeBox5 {
+    display: inline-flex;
+    height: 10px; 
+    width: 50px;
+    margin-top: 5px;
+    background-color: rgb(250, 198, 100);
+    border-radius: 15px;
+
+}
+
+.codeBox4 {
+    width: 25px;
+    background-color: rgb(250, 164, 52);
+}
+
+
+
+.codeBox6, .codeBox7, .codeBox8,.codeBox9, .codeBox10, .codeBox11  {
+    display: inline-flex;
+    height: 10px; 
+    width: 60px;
+    margin-top: 1rem;
+    background-color: rgb(51, 228, 116);
+    border-radius: 15px;
+
+}
+
+
+.codeBox7, .codeBox9, .codeBox10, .codeBox11 {
+    width: 25px;
+    background-color: rgb(25, 206, 91);
+}
+
+.codeBox41, .codeBox42, .cursor {
+    background-color: rgb(60, 161, 238);
+    display: inline-flex;
+    height: 10px; 
+    width: 70px;
+    border-radius: 15px;
+}
+
+.codeBox41 {
+    width: 20px;
+}
+
+#cursor {
+    display: inline-flex;
+    background: rgb(255, 255, 255);
+    line-height: 10px;
+    margin-left: 3px;
+    animation: blink 0.8s infinite;
+    width: 5px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  
+  @keyframes blink {
+    0% {background: #222}
+    50% {background: rgb(255, 255, 255)}
+    100% {background: #222}
+  }
